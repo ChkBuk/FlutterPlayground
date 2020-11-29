@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'gradient_home.dart';
+import 'child/gradient_home.dart';
 
 void main() => runApp(MyApp());
 
