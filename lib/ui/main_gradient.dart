@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import 'gradient_home.dart';
 
@@ -10,10 +11,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Test',
       theme: ThemeData(
-        fontFamily: 'IndieFlower',
-        scaffoldBackgroundColor: Colors.transparent,
+       // textTheme: ,
       ),
-      home: MyHomePage(title: 'My Gradient App'),
+      home: MyHomePage(theme: GoogleFonts.indieFlowerTextTheme()),
 
     );
   }
