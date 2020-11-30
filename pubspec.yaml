@@ -19,7 +19,8 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
-
+  assets:
+  - assets/me.jpeg
   uses-material-design: true
 
 fonts:
