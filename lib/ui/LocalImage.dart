@@ -9,9 +9,7 @@ class LocalImage extends StatelessWidget {
         title: Text('Local Image'),
       ),
       body: Center(
-        child: Image(
-          image: AssetImage('assets/me.jpeg'),
-        ),
+        child: Image.asset('assets/rm_bg.png'),
       ),
     );
   }
